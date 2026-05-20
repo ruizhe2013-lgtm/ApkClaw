@@ -58,7 +58,7 @@ class AppViewModel : ViewModel() {
             .baseUrl(baseUrl)
             .modelName(KVUtils.getLlmModelName())
             .temperature(0.1)
-            .maxIterations(60)
+            .maxIterations(2000)
             .build()
     }
 
